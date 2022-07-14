@@ -8,7 +8,7 @@
 		VALUES
 		(6, 'Detergente', 'Detergente líquido de 500ml.', 1.89, 22),
 		(7, 'Leite Integral', 'Leite integral - caixa de 1 litro.', 4.60, 14),
-		(8, 'Refigerante', 'Garrafa de Refrigerante de 600ml.', 3.70, 14),
+		(8, 'Refrigerante', 'Garrafa de Refrigerante de 600ml.', 3.70, 14),
 		(9, 'Refrigerante', 'Garrafa de refrigerante de 1 litro.', 6.89, 16),
 		(10, 'Refrigerante', 'Lata de refrigerante de 350ml.', 2.99, 45),
 		(11, 'Margarina', 'Pote de margarina de 500 gramas', 3.20, 8);
