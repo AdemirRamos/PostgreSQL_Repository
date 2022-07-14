@@ -36,7 +36,7 @@
 
 		SELECT nome_produto, price FROM produtos
 		WHERE price >= 10
-		ORDER BY price
+		ORDER BY price;
 
 	*/
 
