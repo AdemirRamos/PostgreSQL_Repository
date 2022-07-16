@@ -2,7 +2,7 @@
 
 	/*
 
-		Aula 20 - Apagar Registros De Uma Tabela No PostgreSQL Com "DELETE FROM" e "TRUNCATE TABLE"
+		Aula 21 - Apagar Registros De Uma Tabela No PostgreSQL Com "DELETE FROM" e "TRUNCATE TABLE"
 
 		Sintaxe ("DELETE FROM"):
 
