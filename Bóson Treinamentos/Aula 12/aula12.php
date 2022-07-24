@@ -59,7 +59,7 @@
 				código_produtos SERIAL PRIMARY KEY,
 				
 				-- Criando conexões entre tabelas (através de chaves estrangeiras):
-				-- Descrição do código abaixo: REFERENCES: referencia outra tabela(aqui vai a referência de coluna).
+				-- Descrição do código abaixo: REFERENCES: referencia outra tabela (aqui vai a referência de coluna).
 				-- A nova coluna criada (que se relacionará com outra de outra tabela) deve ter o mesmo tipo de dado e restrição:
 				
 				código_cliente INT NOT NULL REFERENCES clientes(código_cliente),
@@ -67,7 +67,7 @@
 				quantidade_adquirida SMALLINT NOT NULL,
 				
 				-- Criação de uma chave estrangeira para "código_produto":
-				-- Descrição do código abaixa: chave estrangeira; tabela que recebe a chave estrangeira; tabela e coluna referenciadas.
+				-- Descrição do código abaixo: chave estrangeira; tabela que recebe a chave estrangeira; tabela e coluna referenciadas.
 				
 				FOREIGN KEY (código_produto) REFERENCES produtos(código_produtos)
 			);
